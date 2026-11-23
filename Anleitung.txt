@@ -1,0 +1,41 @@
+Vladimir Admin IDs 0.1.3
+Ab WordPress 6.8 und PHP 8.1
+
+== Bedienung ==
+
+In den Listen für Beiträge, Seiten, Medien (Listenansicht), Kommentare, Kategorien, Schlagwörter und Benutzer erscheint die Spalte „ID“. Eigene Beitragstypen und Taxonomien mit WordPress-Verwaltungsliste werden ebenfalls unterstützt. Bei aktiver Linkverwaltung siehst du auch die Link-IDs. Über „Ansicht anpassen“ kannst du die Spalten der jeweiligen Tabelle ausblenden.
+
+Beiträge und Seiten haben zusätzlich eine Spalte „ID-Link“. „Kopieren“ übernimmt die Adresse in die Zwischenablage. Die Meldung „Kopiert“ bestätigt den Erfolg. Falls dein Browser den Zugriff verweigert, markiert das Plugin die Adresse zum manuellen Kopieren (Strg+C oder Cmd+C). Du kannst das sichtbare Feld auch ohne JavaScript benutzen.
+
+Für Beiträge verwendet das Plugin die Website-Adresse mit /?p=123, für Seiten mit /?page_id=456. Die Zahlen sind Beispiele. WordPress kann beim Aufruf zum eingestellten Permalink weiterleiten. Auf einer Multisite gehört jede Adresse zur jeweiligen Website.
+
+Ein ID-Link erteilt keine Leserechte. Für einen Entwurf nutze die WordPress-Vorschau. Private Inhalte erfordern die passenden Rechte, bei passwortgeschützten Inhalten gilt das gesetzte Passwort. Die Spalten erscheinen in den Verwaltungslisten, auf die der angemeldete Benutzer Zugriff hat.
+
+== Installation ==
+
+Wechsel von 0.1.2 oder älter: Deaktiviere zuerst die bisherige Version. Lade dann das ZIP der Version 0.1.3 hoch und aktiviere sie. WordPress führt beide Versionen wegen ihrer unterschiedlichen Verzeichnisse als separate Plugins. Prüfe anschließend unter „Ansicht anpassen“, welche ID-Spalten du einblenden möchtest.
+
+1. Lade das ZIP unter „Plugins → Plugin hinzufügen → Plugin hochladen“ hoch.
+2. Aktiviere „Vladimir Admin IDs“. Die Spalten erscheinen sofort.
+3. Falls „Simply Show IDs“ noch aktiv ist, deaktiviere es, um doppelte ID-Spalten zu vermeiden.
+
+== Herkunft und Lizenz ==
+
+Diese Fassung basiert auf „Simply Show IDs“ 1.3.3 von Matt Martz, Copyright (c) 2009–2010 Matt Martz (http://sivel.net). Das Original dankt Joel Fisher für den Anstoß.
+Vladimir Admin IDs wird von Vladimir Simović (https://www.perun.net/) gepflegt. Lizenztext siehe LICENSE.txt.
+
+== Changelog ==
+
+= 0.1.3 =
+* Ordner, Hauptdatei und interne Bezeichner verwenden jetzt den Namen Vladimir.
+
+= 0.1.2 =
+* „Perun Admin IDs“ heißt jetzt „Vladimir Admin IDs“. Der Plugin-Ordner bleibt für Updates derselbe.
+* Mindestversionen auf WordPress 6.8 und PHP 8.1 gesenkt.
+
+= 0.1.1 =
+* Die Spaltentitel „ID“ und „ID-Link“ werden auch nach der Übersetzung als Klartext ausgegeben.
+
+= 0.1.0 =
+* ID-Spalten des Originals für die aktuellen WordPress-Verwaltungslisten überarbeitet.
+* Kopierbare ID-Links für Beiträge und Seiten sowie Hinweise zu geschützten Inhalten ergänzt.

@@ -1,0 +1,34 @@
+@media screen and (min-width: 783px) {
+	.wp-list-table .column-vladimir_admin_id {
+		width: 5em;
+	}
+
+	.wp-list-table .column-vladimir_admin_id_link {
+		width: 19%;
+	}
+}
+
+.vladimir-admin-ids-url {
+	box-sizing: border-box;
+	width: 100%;
+	margin: 0 0 .3em;
+	font-family: monospace;
+}
+
+.wp-core-ui .button.vladimir-admin-ids-copy {
+	display: none;
+}
+
+.vladimir-admin-ids-ready .wp-core-ui .button.vladimir-admin-ids-copy {
+	display: inline-block;
+}
+
+.vladimir-admin-ids-status {
+	margin-inline-start: .25em;
+}
+
+.vladimir-admin-ids-note {
+	display: block;
+	margin-top: .25em;
+	line-height: 1.4;
+}
